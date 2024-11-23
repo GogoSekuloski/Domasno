@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1> Lunch Special </h1>
+    <h2> Sandwich </h2>
+    
+    <form action="" method="GET">
+        <label for="userName">Enter username:</label>
+        <input type="text" placeholder="Enter username" id="userName"/>
+        <br /> 
+
+        <label for="pwdInput">Enter password:</label>
+        <input type="password" placeholder="Enter password" id="pwdInput"/>
+        <br />
+        <button>Login Type Button</button>
+    </form>
+
+    <hr />
+    <form>
+        <p> When would you like the order to arrive? </p>
+
+        <label for="09:00am-10:00am"> 09:00am-10:00am </label>
+        <input type="radio" id="09:00am-10:00am" name="questionOne"/>
+
+        <label for="11:00am-12:00am"> 11:00am-12:00am </label>
+        <input type="radio" id="11:00am-12:00am" name="questionOne"/>
+
+        <label for="13:00pm-15:00pm"> 13:00pm-15:00pm </label>
+        <input type="radio" id="13:00pm-15:00pm" name="questionOne"/>
+    </form>
+    <hr />
+    <form>
+        <label for="when would you like to order">when would you like to order? </label>
+    </form>
+    <hr />
+    <form>
+        <p> Monday </p>
+
+        <input type="checkbox" id="Tomato Mozzarella" value="Tomato Mozzarella"/>
+        <label for="Tomato Mozzarella">Tomato Mozzarella </label>
+
+        <input type="checkbox" id="Chicken Salad" value="Chicken Salad"/>
+        <label for="Chicken Salad">Chicken Salad</label>
+         
+        <p> Tuesday </p>
+
+        <input type="checkbox" id="Greek salad wrap" value="Greek salad wrap"/>
+        <label for="Greek salad wrap"> Greek Salad Wrap</label>
+
+        <input type="checkbox" id="Toto wrap" value="Toto wrap"/>
+        <label for="Toto wrap"> Toto wrap</label>
+
+        <p> Wednesday </p>
+
+        <input type="checkbox" id="Red pepper hummus" value="Red pepper hummus"/>
+        <label for="Red pepper hummus"> Red pepper hummus </label>
+
+        <input type="checkbox" id="Roasted Turkey" value="Roasted Turkey"/>
+        <label for="Roasted Turkey"> Roasted Turkey </label>
+
+        <P> Thursday </P>
+
+        <input type="checkbox" id="carrot ginger hummus wrap" value="carrot ginger hummus wrap"/>
+        <label for="carrot ginger hummus wrap">Carrot-Ginger Hummus Wrap</label>
+
+        <input type="checkbox" id="Egg salad" value="Egg salad"/>
+        <label for="Egg salad">Egg salad</label>
+
+        <p>Friday</p>
+
+        <input type="checkbox" id="Dado Wrap" value="Dado Wrap"/>
+        <label for="Dado Wrap">Dado Wrap</label>
+
+        <input type="checkbox" id="Tuna Salad" value="Tuna Salad"/>
+        <label for="Tuna Salad"> Tuna Salad </label>
+    </form>
+
+    <hr />
+     <h1> Snack </h1>
+
+     <input type="checkbox" id="Apple" value="Apple"/>
+        <label for="Apple">Apple</label>
+
+        <input type="checkbox" id="Banana" value="Banana"/>
+        <label for="Banana"> Banana </label>
+        <input type="checkbox" id="Potato Chips" value="Potato Chips">
+        <label for="Potato Chips">Potato Chips</label>
+
+        <h1>Regular Size Drink</h1>
+        <input type="checkbox" id="Coffe or Iced Coffe" value="Coffe or Iced Coffe"/>
+        <label for="Coffe or Iced Coffe"> Coffe or Iced Coffe </label>
+        <input type="checkbox" id="Organic Peppermint" value="Organic Peppermint"/>
+        <label for="Organic Peppermint"> Organic Peppermint </label>
+        <input type="checkbox" id="Hot or Iced Sencha Green Tea" value="Hot or Iced Sencha Green Tea"/>
+        <label for="Hot or Iced Sencha Green Tea"> Hot or Iced Sencha Green Tea </label>
+        <input type="checkbox" id="Hot or Iced Keemun Black Tea" value="Hot or Iced Keemun Black Tea"/>
+        <label for="Hot or Iced Keemun Black Tea"> Hot or Iced Keemun Black Tea </label>
+
+
+    <form>
+         <fieldset>
+            <legend>Enter your country origin</legend>
+
+            <label for="region">Region</label>
+            <select id="region">
+                <option disabled selected>Please select an option</option>
+                <option>Macedonia</option>
+                <option>USA</option>
+                <option>Italy</option>
+                <option>Spain</option>
+            </select>
+        </fieldset>
+        <button>Submit</button>
+        <button type="reset">Reset </button>
+    </form>
+</body>
+</html>
